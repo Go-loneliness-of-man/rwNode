@@ -1,0 +1,25 @@
+{
+  "name": "rw_node",
+  "version": "1.0.0",
+  "description": "基于 node.js + ts 实现的 MVC Web 框架",
+  "main": "./core/app.js",
+  "scripts": {
+    "dev": "nodemon --watch / -e ts --exec ts-node core/app.ts",
+    "start": "ts-node core/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/rw15596667631/rwNode.git"
+  },
+  "author": "刃舞",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^14.0.22"
+  },
+  "dependencies": {
+    "content-type": "^1.0.4",
+    "iconv-lite": "^0.6.2",
+    "nodemon": "^2.0.4",
+    "ts-node": "^8.10.2"
+  }
+}
